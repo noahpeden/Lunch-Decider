@@ -1,13 +1,13 @@
 import firebase from 'firebase';
 
-const config = {
-  apiKey: '',
-  authDomain: '',
-  databaseURL: '',
-  storageBucket: '',
-  messagingSenderId: ''
+var config = {
+	apiKey: 'AIzaSyDHWTUW7EU1toj4aAd6pVc2Vp1aggMXg7c',
+	authDomain: 'thank-you-spot-cf939.firebaseapp.com',
+	databaseURL: 'https://thank-you-spot-cf939.firebaseio.com',
+	projectId: 'thank-you-spot-cf939',
+	storageBucket: 'thank-you-spot-cf939.appspot.com',
+	messagingSenderId: '55943055146'
 };
-
 firebase.initializeApp(config);
 
 export default firebase;
